@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Luca Credentino's Calculator</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+ <!-- fontAwesome -->
+ <script
+ src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+ data-search-pseudo-elements
+></script>
+</head>
+<body>
+    <i id="githublogo" class="fab fa-github fa-3x"></i>
+    <a href="https://github.com/Luca-Credentino">Luca Credentino's Calculator</a>
+ <div class="calculator">
+  <form>
+   <input maxlength="10" type="text" name="" id="" class="screen">
+   <input maxlength="10" type="text" name="" id="" class="result">
+  </form>
+  <div class="buttons">
+   <button type="button" class="btn mr-3 btn-grey" data-num="1">1</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="2">2</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="2">3</button>
+   <button type="button" class="btn mb-3 btn-yellow" data-num="+">+</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="4">4</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="5">5</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="6">6</button>
+   <button type="button" class="btn btn-yellow" data-num="-">-</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="7">7</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="8">8</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="9">9</button>
+   <button type="button" class="btn btn-yellow" data-num="*">*</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num="0">0</button>
+   <button type="button" class="btn mr-3 btn-grey" data-num=".">.</button>
+   <button type="button" class="btn-clear mr-3">AC</button>
+   <button type="button" class="btn btn-yellow" data-num="">%</button>
+   <button type="button" class="btn-equal">=</button>
+   <div class="sun sun-logo ml-3">
+    <i class="fas fa-sun"></i>
+   </div>
+   <div class="moon moon-logo ml-3">
+    <i class="fas fa-moon"></i>
+   </div>
+  </div>
+</div>
+ <script src="./app.js"></script>
+</body>
+
+</html>

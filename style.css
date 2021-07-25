@@ -1,0 +1,101 @@
+:root {
+    --screen-color: #495464;
+    --btn-colors: #BBBFCA;
+    --background-color: #E8E8E8;
+  }
+  .fa-github{
+      position: absolute;
+      top: 9rem;
+  }
+  a{
+      margin-top: 10rem;
+      position: absolute;
+      top: 1px;
+      color: white;
+  }a:hover{
+      transition: 300ms;
+      color:  var(--background-color);
+  }
+
+   
+   body{
+       background: #548CA8;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+   
+   .calculator{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 32px;
+    background: var(--background-color);
+    width: 16rem;
+    height: 30rem;
+   }
+   .result{
+       width: 100%;
+       border: 0;
+       height: 60px;
+       color: black;
+       font-size: 16px;
+       text-align: end;
+   }
+   .screen{
+    position: relative;
+    width: 90%;
+    margin-bottom: 16px;
+    height: 80px;
+    font-size: 1rem;
+    color: black;
+    top: 8px;
+    border:none;
+    margin-left: 14px;
+    border-radius: 4px;
+   }
+   .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px; 
+    transition: all 0.5s linear;
+    
+   }
+   
+   button{
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    border-radius: 4rem;
+    margin-left: 1px;
+    border: none;
+    
+   }
+
+   .btn-yellow{
+    border-radius: 50%;
+    background: var(--btn-colors);
+   }
+   .btn-grey{
+       margin-bottom: 16px;
+   }
+   .btn,.btn-equal,.btn-clear{
+    font-size: 13px
+   }
+
+   .btn-clear{
+      color: red;
+   }
+   .sun-logo{
+       position: relative;
+       top: 12px;
+       color: orange;
+   }
+   .moon-logo{
+       position: relative;
+       top: 12px;
+   }
+   .none{
+       display: none;
+   }
