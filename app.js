@@ -1,5 +1,3 @@
-const { url } = require("inspector");
-
 const NumbersAndOperator = document.querySelectorAll('.btn');
 const EqualBtn = document.querySelector('.btn-equal');
 const CancelBtn = document.querySelector('.btn-clear');
@@ -8,7 +6,6 @@ const result = document.querySelector('.result');
 const sunLogo = document.querySelector('.sun-logo');
 const moonLogo = document.querySelector('.moon-logo');
 const section = document.querySelector('.calculator')
-const gitHubLogo = document.querySelector('#githublogo');
 
     NumbersAndOperator.forEach((Buttons)=>{
         Buttons.addEventListener('click', (Buttons)=>{
@@ -39,11 +36,8 @@ const gitHubLogo = document.querySelector('#githublogo');
     sunLogo.addEventListener('click', ()=>{
         section.style.backgroundColor = '#E8E8E8'
         moonLogo.className.add('none')
-    })
+    });
 
-    gitHubLogo.addEventListener('click', ()=>{
-        gitHubLogo.href = url('https://github.com/Luca-Credentino');
-    })
 
 
 
