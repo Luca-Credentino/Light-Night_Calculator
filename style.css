@@ -58,19 +58,21 @@
     display: flex;
     flex-wrap: wrap;
     margin: 4px; 
-    transition: all 0.5s linear;
-    
+    transition: 500ms;
    }
    
    button{
     width: 3rem;
     height: 3rem;
     justify-content: center;
-    transition: all ease-in-out 300ms;
     border-radius: 4rem;
     margin-left: 1px;
     border: none;
-    
+    transition: 300ms;
+   }
+   button:focus{
+       transition: 500ms;
+       transform: translateY(4px);
    }
 
    .btn-yellow{
