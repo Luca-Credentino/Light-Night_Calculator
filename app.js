@@ -18,7 +18,7 @@ const operatorBtn = document.querySelectorAll('.operatorBtn')
     CancelBtn.addEventListener('click', ()=>{
         screenDisplay.value = "";
         resultDisplay.value = "";
-    })
+    })//Resetta i valori degli input
 
     EqualBtn.addEventListener('click', ()=>{
         if (screenDisplay.value === "") {
